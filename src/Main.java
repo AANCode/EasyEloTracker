@@ -1,7 +1,16 @@
+import java.util.Scanner;
+
 public class Main {
     public static void main(String[] args) {
 
-        System.out.println("hva heter spillet");
+        Scanner sc = new Scanner(System.in);
+
+        System.out.println("Hvilket spill spiller dere?");
+        String game = sc.nextLine();
+
+        System.out.println("Hvor mange spillere dere?");
+        String antSpillere = sc.nextLine();
+
 
     }
 }
