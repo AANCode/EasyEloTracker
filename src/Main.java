@@ -11,6 +11,9 @@ public class Main {
         System.out.println("Hvor mange spillere dere?");
         String antSpillere = sc.nextLine();
 
+        for (int i = 1; i <= antSpillere.length(); i++) {
+        }
+
 
     }
 }
