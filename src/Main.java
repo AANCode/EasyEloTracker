@@ -1,3 +1,5 @@
+import java.util.ArrayList;
+import java.util.List;
 import java.util.Scanner;
 
 public class Main {
@@ -5,13 +7,12 @@ public class Main {
 
         Scanner sc = new Scanner(System.in);
 
-        System.out.println("Hvilket spill spiller dere?");
-        String game = sc.nextLine();
-
         System.out.println("Hvor mange spillere dere?");
         String antSpillere = sc.nextLine();
 
+        List<Player> players = new ArrayList<Player>();
         for (int i = 1; i <= antSpillere.length(); i++) {
+            Player player = new Player("sheinks")
         }
 
 
