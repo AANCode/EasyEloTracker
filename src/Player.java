@@ -2,9 +2,12 @@ public class Player {
     String name;
     double eloRate;
 
-    public Player(String name,double eloRate){
+    public Player(String name){
         this.name=name;
+        this.eloRate=1500;
     }
 
-    //TODO: LEGG TIL EN STANDARD ELO AV 1500 FOR NÅ FOR ALLE LAGET SPILERE
+   public void setEloRate(double eloRate){
+        this.eloRate=eloRate;
+   }
 }
