@@ -12,7 +12,7 @@ public class Main {
 
         List<Player> players = new ArrayList<Player>();
         for (int i = 0; i <= antSpillere.length(); i++) {
-            Player player = new Player("sheinks");
+
         }
 
 
